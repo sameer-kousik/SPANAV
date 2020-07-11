@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar-nav{
+    align-self: end;
+}
+
+/* div{
+    transition-delay: 2s;
+} */
+
+
+/* .nav-brand{
+    font-size: large;
+} */
+
+.nav-item{
+    transition: .5s;
+}
+
+/* .nav-link{
+    color: #FF8C00;
+} */
+/* 
+a.signUp {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid transarent;
+    background-color: transparent;
+    -webkit-transition: .5s;
+    transition: .5s;
+} */
+#login.login:hover{
+    background: #f5ac59 ;
+    
+ }
+
+
+.active{
+    background-color: #FF8C00;
+}
+.nav-link:hover{
+    color: #000;
+    padding-right: 1em;
+    
+}
+
+#job{
+    margin:3px;
+    align-content: center;
+}
+
+section{
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+section h1{
+    font-size: 36px;
+    color: #555;
+    font-weight:bold;
+
+}
+
+section h3{
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+#stream img{
+    margin-top: 0px;
+}
+
+#stream p{
+    font-weight: 500;
+}
+
+#stream .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #FF8C00;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+#stream .card:hover{
+    background: #FF8C00;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+
+}
+
+#stream .card:hover h3, #stream .card:hover i{
+    color: #fff;
+
+}
+
+#signUp.signUp{
+    padding: 3px;
+    border: 2px solid #f5ac59;
+    background: transparent;
+    transition: .5s;
+}
