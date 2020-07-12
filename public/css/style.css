@@ -18,6 +18,11 @@
     font-size: large;
 } */
 
+.nav-link.loginSignup#auth{
+    background: #FF8C00 !important;
+    background-color: #FF8C00;
+}
+
 .nav-item{
     transition: .5s;
 }
