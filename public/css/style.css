@@ -1,43 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-* {
-    font-family: 'Lato', sans-serif;
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
-}
 .navbar-nav{
     align-self: end;
 }
 
-/* div{
-    transition-delay: 2s;
-} */
-
-
-/* .nav-brand{
+.nav-brand{
     font-size: large;
-} */
-
-.nav-link.loginSignup#auth{
-    background: #FF8C00 !important;
-    background-color: #FF8C00;
 }
 
 .nav-item{
-    transition: .5s;
+    font-size: 120%;
 }
 
-#login.login:hover{
-    background: #f5ac59 ;
-    
- }
-
+.nav-link{
+    color: #FF8C00;
+}
 
 .active{
     background-color: #FF8C00;
 }
 .nav-link:hover{
-    color: #000;
+
+    background-color: #FF8C00;
     padding-right: 1em;
     
 }
@@ -66,42 +48,43 @@ section h3{
     color: #333;
     font-weight: bold;
 }
-
-#stream img{
-    margin-top: 0px;
+#stream{
+    margin-top: 30px;
 }
 
-#stream p{
-    font-weight: 500;
-}
+    #stream img{
+        margin-top: 0px;
+    }
 
-#stream .card{
-    border-radius: 0;
-    box-shadow: 5px 5px 15px #FF8C00;
-    transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    margin-bottom: 50px;
-    margin-right: 10px;
-}
+    #stream p{
+        font-weight: 500;
+    }
 
-#stream .card:hover{
-    background: #FF8C00;
-    color: #fff;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 5px 5px 10px #9E9E9E;
+    #stream .card{
+        border-radius: 0;
+        box-shadow: 5px 5px 15px #FF8C00;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        margin-bottom: 50px;
+        margin: 10px;
+        
+    }
 
-}
+    #stream .card:hover{
+        background: #FF8C00;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 5px 5px 10px #9E9E9E;
 
-#stream .card:hover h3, #stream .card:hover i{
-    color: #fff;
+    }
 
-}
+    #stream .card:hover h3, #stream .card:hover i{
+        color: #fff;
 
-#signUp.signUp{
-    padding: 3px;
-    border: 2px solid #f5ac59;
-    background: transparent;
-    transition: .5s;
-}
+    }
+
+    #blogs{
+        margin-top: 30px;
+    }
