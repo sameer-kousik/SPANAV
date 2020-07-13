@@ -1,90 +1,118 @@
 .navbar-nav{
-    align-self: end;
+align-self: end;
 }
 
 .nav-brand{
-    font-size: large;
+font-size: large;
 }
 
 .nav-item{
-    font-size: 120%;
+font-size: 120%;
 }
 
 .nav-link{
-    color: #FF8C00;
+color: #FF8C00;
 }
 
-.active{
-    background-color: #FF8C00;
+.navbar .active{
+background-color: #FF8C00;
+border-radius: 0.75em;
 }
 .nav-link:hover{
 
-    background-color: #FF8C00;
-    padding-right: 1em;
-    
+background-color: #FF8C00;
+padding-right: 1em;
+
 }
 
 #job{
-    margin:3px;
-    align-content: center;
+margin:3px;
+align-content: center;
 }
 
 section{
-    font-family: 'Raleway',sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #777;
+font-family: 'Raleway',sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: #777;
 }
 
 section h1{
-    font-size: 36px;
-    color: #555;
-    font-weight:bold;
+font-size: 36px;
+color: #555;
+font-weight:bold;
 
 }
 
 section h3{
-    font-size: 24px;
-    color: #333;
-    font-weight: bold;
+font-size: 24px;
+color: #333;
+font-weight: bold;
 }
 #stream{
-    margin-top: 30px;
+margin-top: 30px;
 }
 
-    #stream img{
-        margin-top: 0px;
+#stream img{
+margin-top: 0px;
+}
+
+#stream p{
+font-weight: 500;
+}
+
+#stream .card{
+border-radius: 0;
+box-shadow: 5px 5px 15px #FF8C00;
+transition: all 0.3s ease-in;
+-webkit-transition: all 0.3s ease-in;
+-moz-transition: all 0.3s ease-in;
+margin-bottom: 50px;
+margin: 10px;
+
+}
+
+#stream .card:hover{
+background: #FF8C00;
+color: #fff;
+border-radius: 5px;
+border: none;
+box-shadow: 5px 5px 10px #9E9E9E;
+
+}
+
+#stream .card:hover h3, #stream .card:hover i{
+color: #fff;
+
+}
+
+#blogs{
+margin-top: 30px;
+}
+
+#blogs{
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 140, 0, 0.8) ;
+    
     }
 
-    #stream p{
-        font-weight: 500;
+    .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     }
 
-    #stream .card{
-        border-radius: 0;
-        box-shadow: 5px 5px 15px #FF8C00;
-        transition: all 0.3s ease-in;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        margin-bottom: 50px;
-        margin: 10px;
-        
-    }
+    .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background: #000;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
 
-    #stream .card:hover{
-        background: #FF8C00;
-        color: #fff;
-        border-radius: 5px;
-        border: none;
-        box-shadow: 5px 5px 10px #9E9E9E;
-
-    }
-
-    #stream .card:hover h3, #stream .card:hover i{
-        color: #fff;
-
-    }
-
-    #blogs{
-        margin-top: 30px;
     }
