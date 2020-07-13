@@ -15,12 +15,12 @@ color: #FF8C00;
 }
 
 .navbar .active{
-background-color: #FF8C00;
-border-radius: 0.75em;
+border-bottom: 5px solid #FF8C00;
+
 }
 .nav-link:hover{
 
-background-color: #FF8C00;
+    border-bottom: 5px solid #FF8C00;
 padding-right: 1em;
 
 }
