@@ -3,7 +3,7 @@ align-self: end;
 }
 
 .nav-brand{
-font-size: large;
+font-size: 100%;
 }
 
 .nav-item{
@@ -62,7 +62,7 @@ font-weight: 500;
 }
 
 #stream .card{
-border-radius: 0;
+border-radius: 10px;
 box-shadow: 5px 5px 15px #FF8C00;
 transition: all 0.3s ease-in;
 -webkit-transition: all 0.3s ease-in;
@@ -122,6 +122,10 @@ color: #fff;
 
 }
 
+#team .card img{
+    margin-top: -50px;
+}
+
 #blogs{
 margin-top: 30px;
 }
@@ -133,7 +137,7 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 140, 0, 0.8) ;
+   
     
     }
 
@@ -152,3 +156,121 @@ margin-top: 30px;
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
 
     }
+/*
+#contact{
+    background-color: #191919
+}
+
+#contact>div>div{
+    margin-top: 100px;
+    padding: 75px;
+}
+
+#contact img{
+    margin-left: -10px;
+    margin-bottom: 10px;
+
+}
+#contact a{
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    color: #FF8C00;
+}
+#social{
+    margin-left: -30px;
+    margin-top: 5px;
+}
+*/
+
+
+#contact a{
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+#footab{
+    font-size: 120%;
+    padding-top: 7%;
+    padding-left:17% ;
+    width: 50%;
+}
+
+#footform h3{
+    padding-right: 50%;
+}
+
+#contact h3{
+    color: #ffffff;
+}
+#contact span{
+    color: #FF8C00;
+}
+
+#footform{
+    float: left;
+    width: 50%;
+}
+#contact a:hover{
+    color: #FF8C00;
+}
+#contact .form{
+    
+    background-color: #191919;
+    box-shadow: 1px 0 10px 15px rgba(0,0,0,.5);
+    padding: 20px;
+    margin-top: 40px;
+}
+#contact .form-control {
+    outline: none;
+    margin: 0 auto;
+    border-radius: 4px !important;
+    }
+
+#contact .form-group{
+    margin-top: 20px;
+    }
+#contact ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    }
+#contact li{
+    padding-top: 15px;
+    color: #84817a;
+    font-size: 18px;
+    }
+#contact h3{
+    color: #84817a;
+    font-size: 36px;
+    }
+#contact.fa{
+    padding-right: 10px;
+    color: #718093;
+    font-size: 22px;
+    }
+
+#social{
+    margin-left: -30px;
+    margin-top: 5px;
+}
+#contact button{
+    background-color: #FF8C00 !important;
+    color: #fff !important;
+    padding: 5px 20px !important;
+    border-radius: 4px !important;
+    }
+    #contact button:hover{
+    background-color: #da611c !important;
+    }
+    @media(max-width: 768px){
+    #footab{
+        display: none;
+    }
+}
