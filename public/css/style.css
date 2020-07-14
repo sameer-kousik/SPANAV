@@ -269,8 +269,11 @@ margin-top: 30px;
     #contact button:hover{
     background-color: #da611c !important;
     }
-    @media(max-width: 768px){
+    @media(max-width: 600px){
     #footab{
         display: none;
+    }
+    #footform{
+        width: 100%;
     }
 }
