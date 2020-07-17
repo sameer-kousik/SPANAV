@@ -265,15 +265,147 @@ margin-top: 30px;
     color: #fff !important;
     padding: 5px 20px !important;
     border-radius: 4px !important;
+}
+#contact button:hover{
+background-color: #da611c !important;
+}
+@media(max-width: 600px){
+#footab{
+    display: none;
+}
+#footform{
+    width: 100%;
+}
+}
+
+
+/* Course Page*/
+
+#cc-0{
+    margin: 30px;
+    margin-top: 130px;
+}
+
+#toopp{
+    clear: both;
+}
+
+#co-img{
+    width: 35%;
+    float: left;
+    border: 2px solid #FF8C00;
+}
+#co-hh{
+    font-size: 30px;
+}
+
+#co-h{
+    margin-left: 20px;
+    width: 60%;
+    float: left;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.fa-ul{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.fa-ul li{
+    margin-bottom: 8px;
+}
+
+.fa-li{
+    color: #FF8C00;
+}
+@media(max-width: 600px){
+    
+    #cc-0{
+        margin: 0px;
     }
-    #contact button:hover{
-    background-color: #da611c !important;
-    }
-    @media(max-width: 600px){
-    #footab{
-        display: none;
-    }
-    #footform{
+    #co-img{
         width: 100%;
+        margin-left: 0px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    #co-h{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .fa-ul{
+        font-size: 15px;
+        margin-top: 15px;
+        color: #000000;
+    }
+    
+    .fa-li{
+        color: #FF8C00;
     }
 }
+
+#tabbed-pane{
+    margin:30px;
+}
+
+
+#tabbed-pane nav > .nav.nav-tabs{
+
+    border: none;
+      color:#fff;
+      background:#272e38;
+      border-radius:0;
+  
+  }
+  #tabbed-pane  nav > div a.nav-item.nav-link,
+  #tabbed-pane nav > div a.nav-item.nav-link.active
+  {
+    border: none;
+      padding: 18px 25px;
+      color:#fff;
+      background:#272e38;
+      border-radius:0;
+  }
+  
+  #tabbed-pane nav > div a.nav-item.nav-link.active:after
+   {
+    content: "";
+    position: relative;
+    bottom: -60px;
+    left: -10%;
+    border: 15px solid transparent;
+    border-top-color: #FF8C00 ;
+  }
+  #tabbed-pane .tab-content{
+    background: #fdfdfd;
+      line-height: 25px;
+      border: 1px solid #ddd;
+      border-top:5px solid #FF8C00;
+      border-bottom:5px solid #FF8C00;
+      padding:30px 25px;
+  }
+  
+  #tabbed-pane nav > div a.nav-item.nav-link:hover,
+  #tabbed-pane nav > div a.nav-item.nav-link:focus
+  {
+    border: none;
+      background: #FF8C00;
+      color:#fff;
+      border-radius:0;
+      transition:background 0.20s linear;
+  }
+
+  #purchase{
+    background: #FF8C00;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #top-course p{
+     margin: 5px;    
+  }
+
+  .tab-pane{
+      margin-left: 20px;
+  }
