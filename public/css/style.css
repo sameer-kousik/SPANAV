@@ -49,19 +49,19 @@ font-size: 24px;
 color: #333;
 font-weight: bold;
 }
-#stream{
+.stream{
 margin-top: 30px;
 }
 
-#stream img{
+.stream img{
 margin-top: 0px;
 }
 
-#stream p{
+.stream p{
 font-weight: 500;
 }
 
-#stream .card{
+.stream .card{
 border-radius: 10px;
 box-shadow: 5px 5px 15px #FF8C00;
 transition: all 0.3s ease-in;
@@ -72,7 +72,7 @@ margin: 10px;
 
 }
 
-#stream .card:hover{
+.stream .card:hover{
 background: #FF8C00;
 color: #fff;
 border-radius: 5px;
@@ -81,7 +81,7 @@ box-shadow: 5px 5px 10px #9E9E9E;
 
 }
 
-#stream .card:hover h3, #stream .card:hover i{
+.stream .card:hover h3, #stream .card:hover i{
 color: #fff;
 
 }
@@ -409,3 +409,89 @@ background-color: #da611c !important;
   .tab-pane{
       margin-left: 20px;
   }
+
+
+/*Profile Page*/
+
+#pp-0{
+    margin-left: 20%;
+    margin-top: 130px;
+}
+
+#toopp{
+    clear: both;
+}
+
+#pro-img{
+    width: 15%;
+    float: left;
+    border: 2px solid #FF8C00;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+#pro-hh{
+    font-size: 30px;
+}
+
+#pro-h{
+    margin-left: 20px;
+    width: 60%;
+    float: left;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.p-para{
+    font-size: 20px;
+}
+
+#edit-profile{
+    float: right;
+    font-size: small;
+    background-color: #FF8C00
+}
+
+#p-questions{
+    margin-top: 100px;
+}
+
+.card-title{
+    font-weight: 700;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+}
+.p-card{
+    margin-bottom: 20px;
+}
+
+.edit{
+    float: right;
+}
+
+
+@media(max-width: 600px){
+    
+    #pp-0{
+        margin-top: 110px;
+        margin-left: 0px;
+
+    }
+    #pro-img{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    #pro-h{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .p-para{
+        font-size: 15px;
+    }
+    #edit-profile{
+        font-size: 10px;
+    }
+
+}
+
